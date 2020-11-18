@@ -1,0 +1,12 @@
+body,html {
+    scroll-behavior: smooth;
+}
+
+#Home{
+    height: 200%;
+}
+
+.nav-link:hover{
+    background-color: darkgray;
+    border-radius: 10px;
+}

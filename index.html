@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+</head>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+<link rel="stylesheet" href="./Portofolio.css">
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="./Portofolio.js"></script> -->
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">MP PORTOFOLIO</a>
+            <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-white m-3" href="#Home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white m-3" href="#AboutMe">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white m-3" href="#Portofolio">Portofolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white m-3" href="#Contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Content -->
+
+    <!-- Home Content -->
+    <div id="Home" class="view mt-5">
+        <div class="container bg-dark rounded p-5">
+            <div class="container-fluid">
+                <div class="row d-flex align-items-center">
+                    <div class="col-6">
+                        <div class="mb-3">
+                            <h1 class="text-white">Marcelina Prayangga</h1>
+                        </div>
+                        <div class="text-white mb-3">
+                            <span>Hello , My Name is Marcelina Prayangga. I'm UI/UX Designer and Web Development</span>
+                        </div>
+                        <div class="text-white font-weight-light mb-2">
+                            <span>UI/UX</span>
+                        </div>
+                        <div class="text-white font-weight-light mb-2">
+                            <span>Web Development</span>
+                        </div>
+                        <div class="text-white font-weight-light mb-2">
+                            <span>Web Design</span>
+                        </div>
+                        <div class="text-white font-weight-light mb-2">
+                            <span>Front-End</span>
+                        </div>
+                        <div class="text-white font-weight-light mb-3">
+                            <span>Back-End</span>
+                        </div>
+
+                        <a class="btn btn-primary rounded" href="#Portofolio">
+                            Go To Portofolio
+                            <i class="fa fa-chevron-right" title="Go To Portofolio"></i>
+                        </a>
+                        
+                    </div>
+                    <div class="col-6 text-center">
+                        <img src="./Assets/Photo.jpg" width="70%" class="rounded-circle">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!-- End Home Content -->
+    <hr>
+
+    <!-- About Me Content -->
+    <div id="AboutMe" class="view">
+        <div class="container">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <center><h2 class="text-dark center">About Me</h2></center>
+                        <center>
+                            I am interested in things related to drawing, design, editing, animations, programming and so on. Being a competent person is my dream. I currently study more in the world of multimedia and programming. always ready with the demands of the deadline and able to work in a good team. 
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End About Me Content -->
+
+    <hr>
+    <!-- Portofolio Content -->
+    <div id="Portofolio" class="view">
+        <div class="container">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <center><h2 class="text-dark center">Portofolio</h2></center>
+                        <center>
+                            <a class="btn btn-primary rounded" href="#Portofolio" data-toggle="modal" data-target="#exampleModalCenter">
+                                View Portofolio
+                            </a>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Portofolio Content -->
+
+    <br><br>
+
+
+    <div id="Contact" class="bg-dark">
+        <div class="container text-white">
+            <br>
+            <center><h3>Contact</h3></center>
+            <center><i class="fab fa-whatsapp"></i>081220757169</center>
+            <center>marcelina.prayangga@binus.ac.id</center>
+        </div>
+        <br>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">PORTOFOLIO</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body p-5">
+                <div class="row d-flex align-items-center">
+                    <div class="col-6">
+                        <h3>Marcelina Prayangga</h3>
+                        <span class="font-italic">Student/Colleger</span>
+                    </div>
+                    <div class="col-6 text-center">
+                        <img src="./Assets/Photo.jpg" width="70%" class="rounded-circle">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <h6 class="text-info">Profile</h6>
+                        <p class="text-justify">I was born in Sibolga, North Sumatra, March 1, 2000 and now I am still a student of Binus University in the 5th semester, majoring in Computer Science. I am interested in things related to drawing, design, editing, animations, programming and so on. Being a competent person is my dream. I currently study more in the world of multimedia and programming. always ready with the demands of the deadline and able to work in a good team.</p>
+                    </div>
+                    <div class="col-6">
+                        <h6 class="text-info">Interest</h6>
+                        <p class="text-justify">Programming is so interesting to learn something new and challenging to think the logic and development web or aplications, both front end and back end</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <h6 class="text-info">Experience</h6>
+                        <div class="row">
+                            <div class="font-weight-bolder col-5">
+                                2019 - 2020
+                            </div>
+                            <div class="col-7">
+                                <span class="font-weight-bolder">IT DIVISION TRAINING</span>
+                                <div class="font-weight-lighter">IT DIVISION, BINUS, Jakarta Barat</div>
+                                <div class="font-weight-lighter">TRAINING IT BOOTCAMP</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <h6 class="text-info">SKILLS</h6>
+                        <div class="text-info">
+                            Programming
+                        </div>
+                        <div class="row">
+                            <div class="col-4">C</div>
+                            <div class="col-4">Java</div>
+                            <div class="col-4">SQL</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4">HTML</div>
+                            <div class="col-4">CSS</div>
+                            <div class="col-4">JavaScript</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4">PHP</div>
+                            <div class="col-4">JQuery</div>
+                            <div class="col-4">Bootstrap</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <h6 class="text-info">Education</h6>
+                        <div class="row">
+                            <div class="font-weight-bolder col-5">
+                                2012 - 2015
+                            </div>
+                            <div class="col-7">
+                                <span class="font-weight-bolder">SMP TRI RATNA</span>
+                                <div class="font-weight-lighter">Sumatera Utara, Sibolga</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="font-weight-bolder col-5">
+                                2015 - 2018
+                            </div>
+                            <div class="col-7">
+                                <span class="font-weight-bolder">SMA TRI RATNA</span>
+                                <div class="font-weight-lighter">Sumatera Utara, Sibolga</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="font-weight-bolder col-5">
+                                2018 - Present
+                            </div>
+                            <div class="col-7">
+                                <span class="font-weight-bolder">BINUS UNIVERSITY</span>
+                                <div class="font-weight-lighter">Kemanggisan, Jakarta Barat</div>
+                                <div class="font-weight-lighter">Computer Science</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="row">
+                            <div class="col-4">C#</div>
+                            <div class="col-4">Laravel</div>
+                            <div class="col-4">Pascal</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4">MySQL</div>
+                        </div>
+                        <br>
+                        <div class="text-info">
+                            Communication Skills
+                        </div>
+                        <div class="row">
+                            <div class="col-5">Public Speaking</div>
+                            <div class="col-3">Presentation</div>
+                        </div>
+                        <br>
+                        <div class="text-info">
+                            Language
+                        </div>
+                        <div class="row">
+                            <div class="col-6">Indonesian</div>
+                            <div class="col-6">English</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <img src="./Assets/CV.png" alt="Portofolio" width="100%"> -->
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+</html>
